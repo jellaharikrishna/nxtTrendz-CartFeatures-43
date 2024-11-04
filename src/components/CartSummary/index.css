@@ -28,3 +28,136 @@
   cursor: pointer;
   width: 100%;
 }
+
+/**/
+
+.popup-bg-container {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  min-width: 350px;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #1f246a;
+}
+
+.no-of-items-heading {
+  font-family: 'Roboto';
+  color: #4c4e52;
+  margin: 0;
+}
+
+.total-price-heading {
+  font-family: 'Roboto';
+  color: #4c4e52;
+  margin-top: 5px;
+}
+
+.payment-method-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f246a;
+  margin-top: 0;
+}
+
+.payment-method-inputs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-method-inputs {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.payment-method-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-method-input-container {
+    margin-right: 5px;
+  }
+}
+
+.payment-method-input {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.payment-method-label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #4c4e52;
+}
+
+.disabled-label {
+  color: #1f246a70;
+}
+
+.confirm-order-btn {
+  align-self: center;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: white;
+  height: 30px;
+  width: 130px;
+  background-color: #7c69e9;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: #7c69e9;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.confirm-order-message-card {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirm-order-message-heading {
+  text-align: center;
+  font-family: Roboto;
+  color: #4c4e52;
+  font-size: 20px;
+}
+
+/**/
